@@ -1,4 +1,3 @@
-
 .side_bar{
     position: relative;
     max-width: 319px;
@@ -76,7 +75,13 @@
     box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
+    transition: 0.5s;
+
     
+}
+.box:hover{
+    background-color: #9c9999;
+
 }
 .box p{
     font-family: 'Avenir LT Std';
@@ -93,6 +98,7 @@
     color: #FF2288;
     font-size: 14px;
     margin-right: 30px;
+    
 }
 .top_menu img{
     margin-right: 30px;
@@ -108,7 +114,11 @@
     color: white;
     font-family: 'Avenir LT Std';
     font-size: 14px;
+    transition: 0.5s;
     
+}
+.top_menu b:hover{
+    background-color:rgb(248, 17, 17);
 }
 .line{
     display: flex;
@@ -123,7 +133,7 @@
 }
 .container{
     position: absolute;
-    max-width: 1000px;
+    max-width: 1231px;
     margin: 40px auto;
     align-items: center;
     flex-wrap: wrap;
@@ -136,17 +146,17 @@
     font-size: 16px;
 }
 .container li{
-    margin-right: 15px;
     display: flex;
     align-items: center;
-    height: 60px;
-    width: 200px;
+    height: 50px;
+    width: 100px;
     border-radius: 12px;
     box-sizing: border-box;
-    padding-right: 10px;
     transition: 0.2s;
-    padding-left: 5px;
-    
+    vertical-align: middle;
+    justify-content: center;
+    margin-right: 20px;
+
 }
 .container li:hover{
     background-color: #F2F2F2;
@@ -161,7 +171,6 @@
     color: white;
     font-family: 'Avenir LT Std';
     font-size: 14px;
-    
 }
 .container a{
     color: #222222;
@@ -177,4 +186,57 @@
 }
 .mini_box img{
     padding-right: 10px;
+}
+.boxes{
+    display: flex;
+}
+.img-rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+    left: 35px;
+    margin-top: 35px;
+    width: 24px;
+    height: 24px;
+}
+.abbs{
+    position: absolute;
+    left: 35px;
+    margin-top: 70px;
+    width: 24px;
+    height: 24px;
+}
+.about-img{
+    position: relative;
+    left: 25px;
+    width: 270px;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+
+}
+.all_img{
+    width: 289px;
+    height: 210px;
+}
+.L-more{
+    position: absolute;
+    background-color: #F2F2F2;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 90px;
+    width: 289px;
+    height: 56px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+    transition: 0.5s;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.L-more:hover{
+    background-color: #9c9999;
+
 }
