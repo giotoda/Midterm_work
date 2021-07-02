@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .side_bar{
     position: relative;
     max-width: 319px;
@@ -91,7 +94,7 @@
     display: flex;
     position: absolute;
     top: 30px;
-    right: 90px;
+    right: 0.2%;
     align-items: center;
 }
 .top_menu a{
@@ -123,11 +126,11 @@
 .line{
     display: flex;
     background-color: #F2F2F2;
-    width: 1080px;
+    width: 1131px;
     height: 1.5px;
     position: absolute;
     top: 120px;
-    left: 340px;
+    left: 22%;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -138,7 +141,7 @@
     align-items: center;
     flex-wrap: wrap;
     top: 120px; 
-    left: 430px;
+    left: 24%;
 }
 .container ul{
     display: flex;
@@ -165,12 +168,14 @@
 .mini_box{
     border: solid 2px #F2F2F2;
     text-align: center;
-    width: 80px;
     padding: 20px;
-    border-radius: 12px;
     color: white;
     font-family: 'Avenir LT Std';
     font-size: 14px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
 }
 .container a{
     color: #222222;
@@ -239,4 +244,430 @@
 .L-more:hover{
     background-color: #9c9999;
 
+}
+.middle_sect{
+    background-color: #F2F2F2;
+    margin-top: 270px;
+    width: 99%;
+}
+.middle_sect .foll{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.middle_sect h4{
+    font-size: 32px;
+    font-family: 'Avenir LT Std';
+    padding-top: 50px;
+}
+.middle_sect p{
+    font-size: 14px;
+    color: #707070;
+    font-family: 'Avenir LT Std';
+    padding-top: 50px;
+}
+.people{
+    display: flex;
+}
+
+.column{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.column h5{
+    width: 70px;
+    padding-left: 35px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.column p{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 12px;
+    font-family: 'Avenir LT Std';
+}
+.column a{
+    border: solid 1px #9c9999;
+    width: 132px;
+    height: 44px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: 'Avenir LT Std';
+    transition: 0.5s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.column a:hover{
+    background-color: #9c9999;
+}
+.footer li{
+    margin-left: 150px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 7px;
+    
+}
+.liner{
+    background-color: #F2F2F2;
+    width: 99%;
+    height: 1.5px;
+    position: absolute;
+    
+}
+.bottom_list a{
+    color: red;
+    margin-top: 60px;
+    vertical-align: middle;
+    display: flex;
+}
+.middle_img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.divv{
+    display: flex;
+    justify-content: space-between;
+}
+.divv span{
+    color: red;
+    margin-top: 60px;
+    vertical-align: middle;
+    display: flex;
+    width: 18%;
+}
+.sale ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 100px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.sale a{
+    color: black;
+    font-size: 18px;
+    font-family: 'Avenir LT Std';
+
+}
+.second ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 220px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.second a{
+    color: #AFAFAF;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.second ul:hover{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+}
+.third ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 320px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.third a{
+    color: #AFAFAF;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.third ul:hover{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+}
+.fourth ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 420px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.fourth a{
+    color: #AFAFAF;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.fourth ul:hover{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+}
+.fifth ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 520px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.fifth a{
+    color: #AFAFAF;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.fifth ul:hover{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+}
+.sixth ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 620px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.sixth a{
+    color: #FF2288;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.sixth ul:hover{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+}
+.eighth ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 720px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-top: 30px;
+
+}
+.eighth  a{
+    color: #AFAFAF;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.eighth ul:hover{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+}
+.ninth ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 820px; 
+    left: 24%;
+    border-bottom: solid 2px #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.ninth a{
+    color: #AFAFAF;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+}
+.ninth ul:hover{
+    background-color:#F2F2F2;
+    border-radius: 12px;
+}
+.one ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 135%; 
+    left: 24%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+}
+.two ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 140%; 
+    left: 25%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+}
+.three ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 145%; 
+    left: 23%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px; 
+}
+.four ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 150%; 
+    left: 24%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px; 
+}
+.five ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 155%; 
+    left: 22.7%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px; 
+}
+.six ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 160%; 
+    left: 24%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px; 
+}
+.seven ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 165%; 
+    left: 25.5%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px; 
+}
+.eight ul{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 170%; 
+    left: 23%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+}
+.nine ul{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    width: 75%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    top: 175%; 
+    left: 30.5%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+}
+.ten {
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    width: 75%;
+    margin: 40px auto;
+    top: 185%; 
+    left: 30.5%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.liner_sec {
+    background-color: #F2F2F2;
+    width: 90%;
+    height: 1.5px;
+    position: absolute;  
+}
+.liner_sec li{
+    display: flex;
+}
+.smart{
+    padding-left: 75%;
 }
